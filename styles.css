@@ -1,0 +1,196 @@
+body{
+    background: rgb(124, 123, 123);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    background-image: url(images/Team\ Zytrix\ Website.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+
+    
+    
+}
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 94px;
+    font-size: large;
+
+}
+
+
+header .logo a{
+    background-image: url(images/Team\ Zytrix\ Logo.jpeg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 250px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -20px;
+    width: 300px;
+
+}
+
+/* RESPONISIVE RULE */
+@media screen and (max-width: 1325px) {
+    header{
+        height: 200px;
+    }
+    header a{
+        color: rgb(134, 134, 134);
+        font-size: medium;
+    }
+    header .mobile {
+         text-decoration-color: white;
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1326px) {
+    header .mobile {
+        display: none;
+    }
+}
+
+/* FEATURES */
+
+.fetures{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+.features figure img{
+    border: 1px white;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 10px;
+    width: 200px;
+}
+
+/* RESPONSIVE RULES*/
+@media screen and (max-width: 800px) {
+    .features{
+        display: block;
+    }
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+}
+
+.merchtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.merch{
+    padding-left: 400px;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 800px) {
+    .merch{
+        padding: 0px;
+        margin: 0px;
+        
+    }
+}
+
+
+.moreinfo{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*RESPONSIVE RULES */
+@media screen and (max-width: 800px) {
+    .moreinfo{
+        padding: 0;
+        font-size: 30px;
+        margin: 0px;
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+section{
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    background: blue;
+    margin: auto;
+    width: 100px;
+}
+
+footer{
+    background: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 800px) {
+    .footer{
+        padding: 0px;
+        margin: 0px;
+       flex-wrap: wrap;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
